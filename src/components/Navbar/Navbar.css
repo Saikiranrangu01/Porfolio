@@ -15,12 +15,13 @@
 .logo-container .theme{
     position: absolute;
     z-index: -1;
+    width:max(120px,5vw);
+    
    
 
 }
 .logo-container .logo{
-    width:max(200px,20vw);
-    height: max(100px, 10vh);
+    width:max(120px,5vw);
     z-index: 1;
     position: absolute;
 }
@@ -69,7 +70,7 @@
     display:none;
 }
 
-@media(max-width:1500px){
+@media(max-width:1200px){
     .logo-container{
         display: none;
     }

@@ -7,6 +7,12 @@
 
 .hero img{
     margin-top:150px;
+    border-radius: 80%;
+}
+.hero img:hover{
+    margin-top:150px;
+    border-radius: 80%;
+ 
 }
 
 .hero h1{
@@ -28,6 +34,18 @@
     font-size: 24px;
     line-height:40px;
 }
+.hero p:hover{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:max(26px, 3vw);
+}
+
+
+
+
+
 
 .hero-action{
     display: flex;

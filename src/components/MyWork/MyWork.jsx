@@ -14,7 +14,7 @@ const MyWork = () => {
 
         <div className="my-work-container">
             {mywork_data.map((work, index)=>{
-                return <img src = {work.w_img} alt=""/>
+                return <img src = {work.w_img} alt="" onClick={() => window.open(work.link, "_blank")}/>
             })}
         </div>
 
