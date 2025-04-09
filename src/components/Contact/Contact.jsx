@@ -47,9 +47,13 @@ const Contact = () => {
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /> <p>7569092145</p>
                     </div>
+                    
+                    <a href='https://www.google.com/maps' target='_blank'>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> <p>Hyderabad, Telangana, India</p>   
                     </div>
+                    </a>
+                    
                 </div>
             </div>
 

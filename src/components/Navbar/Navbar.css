@@ -4,7 +4,26 @@
     justify-content: space-between;
     margin:20px 170px;
 }
+.logo-container{
+    position: relative;
+    z-index: -1;
+    left: -100px;
+    top:-50px;
+    margin-right:10px ;
 
+}
+.logo-container .theme{
+    position: absolute;
+    z-index: -1;
+   
+
+}
+.logo-container .logo{
+    width:max(200px,20vw);
+    height: max(100px, 10vh);
+    z-index: 1;
+    position: absolute;
+}
 .nav-menu{
     display:flex;
     align-items: center;
@@ -48,6 +67,13 @@
 
 .nav-mob-open{
     display:none;
+}
+
+@media(max-width:1500px){
+    .logo-container{
+        display: none;
+    }
+
 }
 
 @media(max-width:768px){

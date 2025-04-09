@@ -1,7 +1,9 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import footer_logo from '../../assets/footer_logo.png'
 import user_icon from '../../assets/user_icon.svg'
+import linkedin from '../../assets/linkedin.png'
+import github from '../../assets/github.png'
 
 const Footer = () => {
   return (
@@ -24,12 +26,16 @@ const Footer = () => {
             
         </div>
         <hr />
+        
         <div className="footer-bottom">
             <p className="footer-bottom-left">© 2025 Rangu Saikiran. All rights reserved.</p>
             <div className="footer-bottom-right">
                 <p>Terms of services</p>
                 <p>privacy policy</p>
-                <p>Connect with me</p>
+                <a href="https://github.com/Saikiranrangu01" target='_blank'><img src={github} alt="" /><p>github</p></a>
+                <a href="https://www.linkedin.com/in/saikiran-rangu/" target='_blank'><img src={linkedin} alt="" /></a>
+                
+                
             </div>
         </div>
 

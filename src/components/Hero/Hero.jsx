@@ -3,7 +3,9 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+
 const Hero = () => {
+  
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
@@ -11,7 +13,7 @@ const Hero = () => {
         <p>Iam a full-stack developer from india, searcjing fo rjob</p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>contact with me</AnchorLink></div>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-resume" onClick={() => window.open('/resume.pdf', '_blank')}>My Resume</div>
         </div>
     </div>
   )
