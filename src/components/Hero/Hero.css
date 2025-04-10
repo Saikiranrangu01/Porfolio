@@ -12,6 +12,10 @@
 .hero img:hover{
     margin-top:150px;
     border-radius: 80%;
+
+    width: max(150, 15vw);
+    transform-style: preserve-3d;
+    animation: spin3D 5s infinite linear;
  
 }
 
