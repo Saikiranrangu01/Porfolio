@@ -86,3 +86,15 @@
         flex-direction: column-reverse;
     }
 }
+
+@media(max-width:460px) {
+    .footer-top-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-bottom-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
