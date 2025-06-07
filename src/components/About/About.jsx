@@ -18,7 +18,6 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p>I completed my Bachelor’s degree in 2024. Over the past two years, I have been training in the MERN stack at NextWave, where I honed my skills in building full-stack web applications. My experience includes developing a food order app, a student registration system, a YouTube clone, a Spotify clone, a to-do list application, and various React and JavaScript-based form pages. I am passionate about learning new technologies and am eager to start my career as a developer.</p>
-                    <p>.</p>
                 </div>
 
                 <div className="about-skills">
