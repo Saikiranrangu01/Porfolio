@@ -11,7 +11,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        link: "https://kiran-store-fullstack.vercel.app/"
+        link: "https://frontendmern-olive.vercel.app/"
         
     },
     {

@@ -22,8 +22,8 @@ const About = () => {
 
                 <div className="about-skills">
                     <div className="about-skill"><p>Libraries: React.js,Express.js</p><hr style={{width:"60%"}} /></div>
-                    <div className="about-skill"><p>Backend: Node.js</p><hr style={{width:"70%"}} /></div>
-                    <div className="about-skill"><p>Frontend: HTML,CSS,JavaScript,</p><hr style={{width:"60%"}} /></div>
+                    <div className="about-skill"><p>Backend: Node.js, Authentication</p><hr style={{width:"70%"}} /></div>
+                    <div className="about-skill"><p>Frontend: HTML5,CSS3,JavaScript</p><hr style={{width:"60%"}} /></div>
                     <div className="about-skill"><p>Programming Languages:Python,C</p><hr style={{width:"60%"}} /></div>
                     <div className="about-skill"><p>Database: SQL, mongoDB</p><hr style={{width:"70%"}} /></div>
                     <div className="about-skill"><p>Tools: Vscode, vercel</p><hr style={{width:"60%"}} /></div>
@@ -40,13 +40,13 @@ const About = () => {
 
 
             <div className="about-achievement">
-                <h1>7+</h1>
+                <h1>8+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
 
             <div className="about-achievement">
-                <h1>SOLVED 300+</h1>
+                <h1>SOLVED 500+</h1>
                 <p>CODING ON NEXTWAVE</p>
             </div>
             <hr />

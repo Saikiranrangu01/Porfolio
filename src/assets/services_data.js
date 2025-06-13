@@ -3,7 +3,7 @@ const Services_Data = [
         s_no:"01",
         s_name:"kiranStore",
         s_desc:"Full-Stack Food Delivery App...",
-        link: "https://kiran-store-fullstack.vercel.app/"
+        link: "https://frontendmern-olive.vercel.app/"
     },
     {
         s_no:"02",
