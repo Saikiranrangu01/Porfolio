@@ -35,13 +35,19 @@
     height:280px;
     transition: 0.3s;
     cursor:pointer;
+
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    perspective: 1000px;
 }
 
 .my-work-container img:hover{
-    transform: scale(1.10);
+    transform: rotateY(180deg);
     border: 4px solid #ff0fff;
     border-radius: 10px;
-    transition:0.3s ;
+    transition:5s ;
+    
+
 }
 
 .my-work-showmore{

@@ -72,7 +72,11 @@
     transform:scale(1.1);
     transition: 0.3s;
 }
+.icon-footer:hover {
+    transform: rotateY(360deg);
+    transition: 3s;
 
+}
 @media(max-width:768px) {
     .footer{
         margin:50px 70px;
